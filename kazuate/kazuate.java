@@ -21,7 +21,7 @@ class Kazuate{
     }
 
     private static void doGame() {
-        for (int i = 5; i > 0; i) {
+        for (int i = 5; i > 0; i--) {
             System.out.println("チャンス：残り" + i + "回");
             int userNum = readInt();
         
